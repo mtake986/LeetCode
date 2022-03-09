@@ -6,6 +6,7 @@
 // https://leetcode.com/problems/maximum-subarray/
 // Test cases are fine, but failed running when submitting. 
 // O(n!) 
+// Mar 9 2022
 var maxSubArray = function(nums) {
     let maxNum = nums[0]
     const arrayLen = nums.length
