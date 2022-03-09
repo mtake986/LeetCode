@@ -1,12 +1,12 @@
+// Mar 9, 2022
+// Runtime: 100 ms, faster than 68.13% of JavaScript online submissions for Two Sum.
+// Memory Usage: 42.3 MB, less than 56.34% of JavaScript online submissions for Two Sum.
+
 /**
  * @param {number[]} nums
  * @param {number} target
  * @return {number[]}
  */
- 
-// Runtime: 100 ms, faster than 68.13% of JavaScript online submissions for Two Sum.
-// Memory Usage: 42.3 MB, less than 56.34% of JavaScript online submissions for Two Sum.
-
  
 var twoSum = function(nums, target) {
 //     O(n*n)
