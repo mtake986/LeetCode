@@ -35,3 +35,15 @@ var twoSum = function(nums, target) {
     }
     return 'No Match'
 };
+
+
+// https://leetcode.com/problems/two-sum/discuss/1828504/JavaScript-Solutions%3A-Brute-Force-and-Memoization
+// Memoization: HashMap | O(N) | O(N)
+const memoization = (nums, target) => {
+  const memo = {}; 
+  for (let i = 0; i < nums.length; i++) {
+    if (Number.isInteger(memo[nums[i]])) return [memo[nums[i]], i];
+    else memo[target - nums[i]] = i;
+  }
+  return []; 
+};
