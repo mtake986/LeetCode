@@ -72,3 +72,26 @@ var generate = function(numRows) {
     }
     return result;
 };
+
+// solution 3
+// https://leetcode.com/problems/pascals-triangle/discuss/1323261/Javascript-Solution-60ms-Runtime-beats-99.34-of-javascript-submissions
+var generate = function(numRows) {
+    const res = [];
+    let prevRow;
+    
+    for (let i = 1; i <= numRows; i++) {
+        const row = new Array(i).fill(1);
+
+        if (prevRow) {
+            for (let j = 1; j < prevRow.length; j++) {
+                const cs = prevRow[j] + prevRow[j - 1];
+                row[j] = cs;
+            }
+        }
+        
+        res.push(row);
+        prevRow = row;
+    }
+    
+    return res;
+};
