@@ -9,7 +9,7 @@ All my code to solve problems on LeetCode
 - To become a more professional SWE and problem solver
 - To have a habit of coding regularly
 - To practice logical thinking 
-- To look for an effective and fast way to get things done
+- To look for an effective, unique, and fast way to get things done
 
 ## Number-driven Plan and Tips
 - Finish at least 5 problems a week. 
