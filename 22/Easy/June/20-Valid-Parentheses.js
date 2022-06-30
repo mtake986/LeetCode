@@ -59,13 +59,13 @@ var isValid = function (s) {
     return stack.length === 0;
 };
 
-// Instead of 
+// Not this 
 // ====
 // if(stack.length === 0) return true;
 // return false;
 // ====
 
-// Write like below
+// Write a condition like below
 // ====
 // return stack.length === 0;
 // ====
