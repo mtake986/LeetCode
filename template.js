@@ -14,6 +14,6 @@
 // Sol. 3
 // Link: 
 
-
-
+// How to run a js file 
+// node Filename.js
 
